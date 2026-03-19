@@ -25,7 +25,8 @@ To test locally:
 | **Phone Number** | +1 (914) 372-0256|
 | **API Base URL** | `https://nongravitational-norene-jestful.ngrok-free.dev`
 | **Ngrok (local)** | `https://nongravitational-norene-jestful.ngrok-free.dev` |
-| **Health Check** | `GET /` → `{"message":"CareCloud Voice Agent is Online"}` |
+| **Health Check** | ` https://nongravitational-norene-jestful.ngrok-free.dev/`
+| **Patients API** | ` https://nongravitational-norene-jestful.ngrok-free.dev/patients`
 
 ---
 
