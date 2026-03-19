@@ -1,0 +1,59 @@
+cd C:\cloudcare
+
+# Initialize git
+git init
+git add .
+git commit -m "CareCloud Voice Agent - Patient Registration System"
+
+# Go to github.com → New Repository → name it "carecloud-voice-agent" → Create
+# Then run:
+git remote add origin https://github.com/ToobaAhmedAlvi/carecloud-voice-agent.git
+git branch -M main
+git push -u origin main
+```
+
+---
+
+### Step 2 — Your Submission Details
+
+Copy this and send to the reviewers:
+```
+═══════════════════════════════════════════════════
+  CARECLOUD VOICE AGENT — SUBMISSION
+═══════════════════════════════════════════════════
+
+1. REPOSITORY URL
+   https://github.com/YOUR_USERNAME/carecloud-voice-agent
+
+2. PHONE NUMBER TO CALL
+   +1 (914) 372-0256
+   (Call this number — Alex will answer and register you)
+
+3. API BASE URL
+   https://nongravitational-norene-jestful.ngrok-free.dev
+   
+   Key endpoints:
+   GET  /          → Health check
+   GET  /patients  → List all patients
+   POST /patients  → Create patient
+   GET  /patients/:id → Get by ID
+   PUT  /patients/:id → Update
+   DELETE /patients/:id → Soft delete
+
+4. CREDENTIALS & NOTES
+   - No authentication required on API (by design for assessment)
+   - Server is running locally via ngrok tunnel
+   - ngrok URL: https://nongravitational-norene-jestful.ngrok-free.dev
+   - Flask server must be running during review
+   - Test the API: curl https://nongravitational-norene-jestful.ngrok-free.dev/patients
+
+═══════════════════════════════════════════════════
+  TECH STACK
+═══════════════════════════════════════════════════
+  Telephony:  Vapi (CareCloud-agent, Elliot voice)
+  LLM:        Anthropic Claude Sonnet 4
+  Backend:    Python Flask + Waitress
+  Database:   SQLite via SQLAlchemy
+  Tunnel:     ngrok
+  Tests:      pytest (17/17 passing)
+═══════════════════════════════════════════════════

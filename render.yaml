@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: carecloud-voice-agent
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn "app.main:create_app()" --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    envVars:
+      - key: FLASK_DEBUG
+        value: false
+      - key: DATABASE_URL
+        value: sqlite:///./carecloud.db   # swap for PostgreSQL in production
+      - key: BASE_URL
+        sync: false   # set this to your Render URL after first deploy
+      - key: VAPI_API_KEY
+        sync: false
+      - key: VAPI_ASSISTANT_ID
+        sync: false

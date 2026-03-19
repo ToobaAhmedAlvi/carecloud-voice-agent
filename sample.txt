@@ -1,0 +1,87 @@
+🎙️ Full Registration Call Script
+When Alex asks for your phone number:
+
+"My number is 555-867-5309"
+
+When Alex asks your name:
+
+"My name is John Davis"
+
+If Alex asks to spell it:
+
+"D - A - V - I - S"
+
+When Alex asks date of birth:
+
+"January 15th, 1990"
+
+When Alex asks sex:
+
+"Male"
+
+When Alex asks for address:
+
+"123 Oak Street, Apartment 4B, Houston, Texas, 77001"
+
+When Alex reads it back and asks to confirm:
+
+"Actually, my last name is spelled D - A - V - I - E - S, not Davis"
+(This tests the correction handling — a key evaluation criterion!)
+
+After Alex corrects and reads back again:
+
+"Yes, that's all correct"
+
+When Alex offers optional info:
+
+"Yes, I'd like to add my insurance"
+
+Insurance provider:
+
+"Blue Cross Blue Shield"
+
+Member ID:
+
+"BCBS-2024-1234"
+
+When Alex asks about emergency contact:
+
+"Yes, my emergency contact is Sarah Davies, her number is 555-234-5678"
+
+Final confirmation:
+
+"Yes, everything looks correct, please save it"
+
+
+🧪 After the Call — Verify It Saved
+Invoke-WebRequest -Uri "https://nongravitational-norene-jestful.ngrok-free.dev/patients" `
+  -UseBasicParsing `
+  -Headers @{ "ngrok-skip-browser-warning" = "true" } |
+  Select-Object -ExpandProperty Content
+
+# ── SET KEY ──────────────────────────────────────────────────────────
+$env:VAPI_API_KEY = "4a4576bf-b07a-4ca0-8115-ba31c8a4a7bd"
+
+# ── CHECK ASSISTANT SERVER URL ───────────────────────────────────────
+$r = Invoke-WebRequest `
+  -Uri "https://api.vapi.ai/assistant/4eea5695-5661-4b0d-82ce-a9ff04793706" `
+  -Method GET -UseBasicParsing `
+  -Headers @{ "Authorization" = "Bearer $env:VAPI_API_KEY" }
+
+$assistant = $r.Content | ConvertFrom-Json
+Write-Host "serverUrl:" $assistant.serverUrl
+Write-Host "server.url:" $assistant.server.url
+Write-Host "server.timeoutSeconds:" $assistant.server.timeoutSeconds
+
+# ── TEST WEBHOOK DIRECTLY ────────────────────────────────────────────
+Write-Host "`nTesting webhook tool call..."
+$body = '{"message":{"type":"function-call","call":{"id":"diag-001"},"functionCall":{"name":"lookup_patient_by_phone","parameters":{"phone_number":"5559999999"}}}}'
+
+$w = Invoke-WebRequest `
+  -Uri "https://nongravitational-norene-jestful.ngrok-free.dev/webhook" `
+  -Method POST -UseBasicParsing `
+  -Headers @{"Content-Type"="application/json"; "ngrok-skip-browser-warning"="true"} `
+  -Body $body
+
+Write-Host "Webhook response:" $w.Content
+[System.Environment]::SetEnvironmentVariable("VAPI_API_KEY", "4a4576bf-b07a-4ca0-8115-ba31c8a4a7bd", "User")

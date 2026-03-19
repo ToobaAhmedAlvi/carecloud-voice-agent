@@ -1,0 +1,306 @@
+2026-03-19 12:37:31,739 [INFO] carecloud — Database initialized.
+2026-03-19 12:37:32,086 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.12:5000
+2026-03-19 12:37:32,089 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-03-19 12:52:49,252 [INFO] carecloud — Database initialized.
+2026-03-19 12:52:49,315 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.12:5000
+2026-03-19 12:52:49,318 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-03-19 12:53:36,000 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 12:53:36] "GET / HTTP/1.1" 200 -
+2026-03-19 12:54:22,649 [INFO] carecloud.vapi — [WEBHOOK] type=assistant-request call_id=test-001
+2026-03-19 12:54:22,673 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 12:54:22] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:07:59,001 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:07:59] "GET / HTTP/1.1" 200 -
+2026-03-19 13:10:38,999 [INFO] carecloud.vapi — [WEBHOOK] type=status-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:10:39,001 [INFO] carecloud.vapi — [STATUS] in-progress
+2026-03-19 13:10:39,002 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:10:39] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:10:39,165 [INFO] carecloud.vapi — [WEBHOOK] type=assistant.started call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:10:39,168 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:10:39] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:10:39,430 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:10:39,433 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:10:39] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:10:49,891 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:10:49,894 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:10:49] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:10:49,954 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:10:49,955 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:10:49] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:13,857 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:13,872 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:13] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:15,436 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:15,438 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:15] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:18,567 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:18,568 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:18] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:19,248 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:19,251 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:19] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:19,578 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:19,581 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:19] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:20,136 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:20,140 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:20] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:20,446 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:20,448 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:20] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:25,492 [INFO] carecloud.vapi — [WEBHOOK] type=hang call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:25,494 [WARNING] carecloud.vapi — [HANG] Call is hanging — no audio detected.
+2026-03-19 13:11:25,495 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:25] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:30,339 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:30,351 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:30] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:41,281 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:41,290 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:41] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:41,440 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:41,459 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:41] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:53,007 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:53,016 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:53] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:54,525 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:54,529 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:54] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:54,680 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:54,682 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:54] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:57,303 [INFO] carecloud.vapi — [WEBHOOK] type=tool-calls call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:57,308 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:57] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:57,494 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:57,495 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:57] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:57,498 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:57,507 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:57] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:58,712 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:58,720 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:58] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:58,879 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:58,882 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:58] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:11:58,890 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:11:58,909 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:11:58] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:01,173 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:01,175 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:01] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:08,983 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:08,987 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:08] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:09,744 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:09,746 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:09] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:09,749 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:09,752 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:09] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:12,197 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:12,211 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:12] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:13,181 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:13,182 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:13] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:13,338 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:13,341 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:13] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:15,493 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:15,497 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:15] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:20,432 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:20,437 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:20] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:20,503 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:20,550 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:20] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:22,107 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:22,109 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:22] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:23,701 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:23,724 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:23] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:25,218 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:25,230 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:25] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:25,333 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:25,335 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:25] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:27,763 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:27,764 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:27] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:31,104 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:31,110 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:31] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:31,276 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:31,280 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:31] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:33,784 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:33,795 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:33] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:36,394 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:36,398 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:36] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:43,657 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:43,724 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:43] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:43,758 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:43,799 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:43] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:46,267 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:46,270 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:46] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:49,774 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:49,778 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:49] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:49,906 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:49,909 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:49] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:12:52,264 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:12:52,273 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:12:52] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:00,666 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:00,667 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:00] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:00,927 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:00,950 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:00] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:02,553 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:02,559 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:02] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:03,481 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:03,484 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:03] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:03,802 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:03,813 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:03] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:06,258 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:06,279 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:06] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:07,962 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:07,966 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:07] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:09,907 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:09,934 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:09] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:10,192 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:10,272 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:10] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:13,927 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:13,932 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:13] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:15,037 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:15,038 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:15] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:15,189 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:15,190 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:15] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:16,649 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:16,653 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:16] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:18,207 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:18,213 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:18] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:18,215 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:18,248 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:18] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:33,098 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:33,102 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:33] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:35,646 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:35,648 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:35] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:35,803 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:35,804 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:35] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:38,279 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:38,281 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:38] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:38,919 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:38,924 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:38] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:43,302 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:43,329 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:43] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:51,307 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:51,310 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:51] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:51,312 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:51,314 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:51] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:56,069 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:56,072 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:56] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:58,829 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:58,831 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:58] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:13:59,617 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:13:59,621 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:13:59] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:02,080 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:02,082 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:02] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:20,454 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:20,461 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:20] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:20,696 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:20,726 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:20] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:22,280 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:22,281 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:22] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:26,097 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:26,101 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:26] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:28,113 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:28,119 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:28] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:30,343 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:30,345 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:30] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:35,198 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:35,201 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:35] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:35,352 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:35,360 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:35] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:37,505 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:37,508 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:37] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:38,892 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:38,894 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:38] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:38,912 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:38,913 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:38] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:40,043 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:40,045 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:40] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:42,136 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:42,140 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:42] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:42,143 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:42,150 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:42] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:44,017 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:44,020 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:44] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:48,457 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:48,465 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:48] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:48,599 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:48,601 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:48] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:50,184 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:50,189 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:50] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:52,425 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:52,429 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:52] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:55,224 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:55,227 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:55] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:14:58,227 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:14:58,232 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:14:58] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:00,254 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:00,258 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:00] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:00,261 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:00,264 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:00] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:02,082 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:02,084 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:02] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:04,570 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:04,572 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:04] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:04,732 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:04,734 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:04] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:05,845 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:05,848 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:05] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:06,874 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:06,877 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:06] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:08,608 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:08,613 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:08] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:10,409 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:10,413 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:10] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:12,416 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:12,421 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:12] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:17,375 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:17,378 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:17] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:21,782 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:21,784 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:21] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:21,952 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:21,954 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:21] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:23,769 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:23,770 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:23] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:26,319 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:26,322 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:26,322 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:26] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:26,324 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:26] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:27,376 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:27,379 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:27] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:27,381 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:27,383 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:27] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:15:30,992 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d0525-66ef-7ddb-a28d-02680672ed45
+2026-03-19 13:15:30,998 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:15:30] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:16:42,980 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:16:42] "GET / HTTP/1.1" 200 -
+2026-03-19 13:22:15,667 [INFO] carecloud — Database initialized.
+2026-03-19 13:22:15,760 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.12:5000
+2026-03-19 13:22:15,856 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-03-19 13:25:24,426 [INFO] carecloud.vapi — [WEBHOOK] type=function-call call_id=full-test-001
+2026-03-19 13:25:24,428 [INFO] carecloud.vapi — [TOOL] save_patient({"sex": "Male", "insurance_provider": "Blue Cross Blue Shield", "last_name": "Davies", "address_line_2": "Apt 4B", "insurance_member_id": "BCBS-2024-1234", "zip_code": "77001", "first_name": "John", "city": "Houston", "emergency_contact_name": "Sarah Davies", "state": "TX", "date_of_birth": "01/15/1990", "address_line_1": "123 Oak Street", "emergency_contact_phone": "5552345678", "phone_number": "5558675309"})
+2026-03-19 13:25:26,708 [INFO] carecloud.api — [PATIENT CREATED] {'patient_id': 'da997278-bc90-4928-b8c7-b3631e9f048b', 'first_name': 'John', 'last_name': 'Davies', 'date_of_birth': '01/15/1990', 'sex': 'Male', 'phone_number': '5558675309', 'email': None, 'address_line_1': '123 Oak Street', 'address_line_2': 'Apt 4B', 'city': 'Houston', 'state': 'TX', 'zip_code': '77001', 'insurance_provider': 'Blue Cross Blue Shield', 'insurance_member_id': 'BCBS-2024-1234', 'preferred_language': 'English', 'emergency_contact_name': 'Sarah Davies', 'emergency_contact_phone': '5552345678', 'created_at': '2026-03-19T08:25:26.585584', 'updated_at': '2026-03-19T08:25:26.585596', 'deleted_at': None}
+2026-03-19 13:25:26,722 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:25:26] "[35m[1mPOST /patients HTTP/1.1[0m" 201 -
+2026-03-19 13:25:26,731 [INFO] carecloud.vapi — [SAVE] Patient saved: da997278-bc90-4928-b8c7-b3631e9f048b
+2026-03-19 13:25:27,072 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:25:27] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:38:19,312 [INFO] carecloud.vapi — [WEBHOOK] type=function-call call_id=test
+2026-03-19 13:38:19,313 [INFO] carecloud.vapi — [TOOL] lookup_patient_by_phone({"phone_number": "5558675309"})
+2026-03-19 13:38:19,317 [INFO] carecloud.vapi — [LOOKUP] Found existing patient: John Davies
+2026-03-19 13:38:19,352 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:38:19] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:40:57,650 [INFO] carecloud — Database initialized.
+2026-03-19 13:40:57,709 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.12:5000
+2026-03-19 13:40:57,710 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-03-19 13:41:22,022 [INFO] carecloud.vapi — [WEBHOOK] type=function-call call_id=t1
+2026-03-19 13:41:22,023 [INFO] carecloud.vapi — [TOOL] lookup_patient_by_phone({"phone_number": "5559999999"})
+2026-03-19 13:41:22,195 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:41:22] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 13:52:40,824 [INFO] carecloud — Database initialized.
+2026-03-19 13:52:41,794 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.12:5000
+2026-03-19 13:52:41,797 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-03-19 13:53:00,195 [INFO] carecloud.vapi — [WEBHOOK] type=function-call call_id=t1
+2026-03-19 13:53:00,198 [INFO] carecloud.vapi — [TOOL] lookup_patient_by_phone args={"phone_number": "5559999999"}
+2026-03-19 13:53:00,234 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 13:53:00] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 14:00:03,704 [INFO] carecloud.vapi — [WEBHOOK] type=function-call call_id=diag-001
+2026-03-19 14:00:03,705 [INFO] carecloud.vapi — [TOOL] lookup_patient_by_phone args={"phone_number": "5559999999"}
+2026-03-19 14:00:03,724 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 14:00:03] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 14:04:27,797 [INFO] carecloud.vapi — [WEBHOOK] type=function-call call_id=diag-001
+2026-03-19 14:04:27,798 [INFO] carecloud.vapi — [TOOL] lookup_patient_by_phone args={"phone_number": "5559999999"}
+2026-03-19 14:04:27,827 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 14:04:27] "POST /webhook HTTP/1.1" 200 -
+2026-03-19 14:09:33,606 [INFO] carecloud — Database initialized.
+2026-03-19 14:09:34,651 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.12:5000
+2026-03-19 14:09:34,652 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-03-19 14:11:36,871 [INFO] werkzeug — 127.0.0.1 - - [19/Mar/2026 14:11:36] "GET / HTTP/1.1" 200 -
+2026-03-19 14:21:04,314 [INFO] carecloud — Database initialized.
+2026-03-19 14:21:04,323 [INFO] waitress — Serving on http://0.0.0.0:5000
+2026-03-19 14:23:35,723 [INFO] carecloud — Database initialized.
+2026-03-19 14:23:35,735 [INFO] waitress — Serving on http://0.0.0.0:5000
+2026-03-19 14:25:07,521 [INFO] carecloud — Database initialized.
+2026-03-19 14:25:07,560 [INFO] waitress — Serving on http://0.0.0.0:5000
