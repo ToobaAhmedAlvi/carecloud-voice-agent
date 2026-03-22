@@ -457,3 +457,18 @@ AI: You're very welcome, Leanne. Have a great day. and we'll see you soon. Goodb
 
 2026-03-19 16:03:35,311 [INFO] carecloud — Database initialized.
 2026-03-19 16:03:35,346 [INFO] waitress — Serving on http://0.0.0.0:5000
+2026-03-19 16:09:06,532 [INFO] carecloud — Database initialized.
+2026-03-19 16:09:06,598 [INFO] waitress — Serving on http://0.0.0.0:5000
+2026-03-19 16:31:52,370 [INFO] carecloud.vapi — [WEBHOOK] type=assistant.started call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:31:52,784 [INFO] carecloud.vapi — [WEBHOOK] type=status-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:31:52,786 [INFO] carecloud.vapi — [STATUS] in-progress call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:31:53,195 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:31:57,728 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:31:59,537 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:32:01,213 [INFO] carecloud.vapi — [WEBHOOK] type=conversation-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:32:01,631 [INFO] carecloud.vapi — [WEBHOOK] type=speech-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:32:14,981 [INFO] carecloud.vapi — [WEBHOOK] type=status-update call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:32:15,076 [INFO] carecloud.vapi — [STATUS] ended call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:32:15,823 [INFO] carecloud.vapi — [WEBHOOK] type=end-of-call-report call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688
+2026-03-19 16:32:15,845 [INFO] carecloud.vapi — [CALL ENDED] call_id=019d05dd-bf37-7ddb-a87d-27f6c9fa3688 summary= transcript=AI: Thank you for calling CareCloud Medical Group. I'm Alex, and I'll be helping you register today. may I start with your callback phone number in case we get disconnected.
+
