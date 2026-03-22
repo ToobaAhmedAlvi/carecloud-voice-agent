@@ -35,7 +35,7 @@ resp = requests.patch(
         "Authorization": f"Bearer {VAPI_API_KEY}",
         "Content-Type": "application/json",
     },
-    timeout=10,
+    timeout=60,
 )
 
 if resp.status_code == 200:
